@@ -1,0 +1,10 @@
+{
+  "UseEffect": "  useEffect(() => {     // Update the document title using the browser API     document.title = `You clicked ${count} times`;   });",
+  "Auth": "let base64 = require('base-64');  let url = 'http://eu.httpbin.org/basic-auth/user/passwd'; let username = 'user'; let password = 'passwd';  let headers = new Headers();  //headers.append('Content-Type', 'text/json'); headers.append('Authorization', 'Basic' + base64.encode(username + \":\" + password));  fetch(url, {method:'GET',         headers: headers,         //credentials: 'user:passwd'        }) .then(response => response.json()) .then(json => console.log(json)); //.done();",
+  "fetch": "fetch('https://example.com/path', {method:'GET',  headers: {'Authorization': 'Basic ' + btoa('login:password')}}) .then(response => response.json()) .then(json => console.log(json));",
+  "nope": "fetch('https://example.com/path', {method:'GET',  headers: {'Authorization': 'Basic ' + btoa('login:password')}}) .then(response => response.json()) .then(json => console.log(json));",
+  "axios": "const axios = require('axios/dist/browser/axios.cjs'); // browser const axios = require('axios/dist/node/axios.cjs'); // node",
+  "a": "gsegsdg",
+  "he": "if (!prefix || !snippets[prefix]) {     vscode.window.showErrorMessage('Snippet not found!');     return;   }",
+  "ho": "if (!prefix || !snippets[prefix]) {     vscode.window.showErrorMessage('Snippet not found!');     return;   }"
+}
