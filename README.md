@@ -9,7 +9,7 @@ This extension helps you manage and insert code snippets directly within VS Code
 1. **Create snippets**: Easily define custom code snippets with unique prefixes for quick insertion.
 2. **Organize snippets**: *(Coming Soon!)* Group your snippets into categories for better management (e.g., HTML, CSS, JavaScript).
 3. **Insert snippets**: Insert snippets with their prefixes into your code with a single command.
-4. **Automatic formatting**: *(Coming Soon!)* Automatically format inserted snippets based on your VS Code preferences.
+4. **Automatic formatting**:  Automatically format inserted snippets based on your VS Code preferences.
 
 ## Requirements
 
